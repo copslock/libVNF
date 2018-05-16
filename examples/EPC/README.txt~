@@ -1,0 +1,9 @@
+Notes:
+0- It runs with original mtcp, put it in mtcp-master/apps folder and extract.
+
+1- File defport.h contains default ports and ip addresses. Change ips here.
+
+2- To run, do "make clean" and "make". You may need to modify server.conf for eth before runing the components.
+
+Thanks
+Trishal

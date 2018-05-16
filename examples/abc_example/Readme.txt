@@ -1,0 +1,16 @@
+Do the library setup as listed in the user_manual.pdf.
+The a-b-c example is a dummy example to test the library. VNF A sends request to VNF B which for each request from VNF A contact VNF C to fetch some value and replies back to A after receiving response from VNF C.
+We have built VNF B over our library, for all versions: over kernel,mTCP as well as clustered setup.
+change IPs in b.cpp.
+
+For mTCP version change the number of cores = VM cores in lib.h and server.conf. Also, change the interface in server.conf.
+make clean
+make 
+sudo ./b
+
+For kernel version change the number of cores = VM cores in lib.h.
+echo 1 > /proc/sys/net/ipv4/tcp_tw_reuse
+make clean
+make
+./b
+
