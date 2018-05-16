@@ -3,5 +3,4 @@ This repository provides the library files with the API implementations.
 The folder structure is as follows:  
 The library files are in lib_files folder. Use these files to build VNF using the libVNF API. The folder also contains a sample makefile  
 The dependencies folder contains dependencies of lirary. Refer to user_manual.pdf for details  
-The examples folder contain VNF examples built over the library  
-Author: Priyanka Naik
+The examples folder contain VNF examples built over the library
